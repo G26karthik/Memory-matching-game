@@ -185,17 +185,18 @@ const GameBoard: React.FC = () => {
             {showInstructions ? 'Hide Instructions' : 'Show Instructions'}
           </button>
           
-          {showInstructions && (
-            <div className="instructions">
-              <h3 className="text-xl font-bold mb-2">How to Play:</h3>
-              <ul className="list-disc pl-5 mb-4">
-                <li>Click on cards to flip them over</li>
-                <li>Find matching pairs of technology icons</li>
-                <li>Match all pairs to complete the level</li>
-                <li>Try to finish with the fewest moves and fastest time</li>
-              </ul>
-            </div>
-          )}
+         {showInstructions && (
+  <div className="instructions" style={{ color: '#1f2937' }}>
+    <h3 className="text-xl font-bold mb-2" style={{ color: '#111827' }}>How to Play:</h3>
+    <ul className="list-disc pl-5 mb-4">
+      <li style={{ color: '#374151' }}>Click on cards to flip them over</li>
+      <li style={{ color: '#374151' }}>Find matching pairs of technology icons</li>
+      <li style={{ color: '#374151' }}>Match all pairs to complete the level</li>
+      <li style={{ color: '#374151' }}>Try to finish with the fewest moves and fastest time</li>
+    </ul>
+  </div>
+)}
+
           
           <div className="level-buttons">
             <button 
