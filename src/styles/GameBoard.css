@@ -433,3 +433,20 @@
   background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
   color: white;
 }
+
+/* Fix for instructions text visibility */
+.instructions {
+  color: #1f2937 !important;
+}
+
+.instructions ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.instructions ul li {
+  margin-bottom: 0.5rem;
+  color: #374151 !important;
+}
+
