@@ -45,7 +45,21 @@
   margin-bottom: 1.75rem;
   text-align: left;
   border-left: 4px solid #3b82f6;
+  color: #1f2937; /* Added dark text color */
 }
+
+/* Also add this to ensure list items in instructions are visible */
+.instructions ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.instructions ul li {
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
 
 .level-buttons {
   display: flex;
