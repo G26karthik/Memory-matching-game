@@ -89,7 +89,7 @@ This project was designed to meet the CodeCircuit Hackathon judging criteria:
    pnpm run dev
    ```
 
-``
+
 4. Open your browser and navigate to `http://localhost:5173`
 
    
@@ -134,5 +134,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 * Created by G Karthik for the CodeCircuit Hackathon
 * Technology icons represent various programming languages and tools
 
-```
 
