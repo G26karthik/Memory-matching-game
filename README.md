@@ -1,6 +1,3 @@
-Sure! Here's your **entire README content as one single Markdown section** inside a single code block. You can copy-paste this directly into a file like `README.md`:
-
-````markdown
 # Tech Memory Match
 
 A technology-themed memory matching game created for the CodeCircuit Hackathon by G Karthik.
