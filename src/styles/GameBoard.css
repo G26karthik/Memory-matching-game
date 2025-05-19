@@ -38,14 +38,28 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 .instructions {
   background-color: #f9fafb;
+=======
+
+.instructions {
+  background: linear-gradient(90deg, #0a2540 0%, #183b6b 100%);
+>>>>>>> 0a18d0e (Update README and fix instructions visibility for GitHub Pages)
   border-radius: 0.5rem;
   padding: 1.25rem;
   margin-bottom: 1.75rem;
   text-align: left;
+<<<<<<< HEAD
   border-left: 4px solid #3b82f6;
   color: #1f2937; /* Added dark text color */
+=======
+  border-left: 4px solid #ffb300;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(10,37,64,0.08);
+  font-size: 1.08rem;
+  letter-spacing: 0.01em;
+>>>>>>> 0a18d0e (Update README and fix instructions visibility for GitHub Pages)
 }
 
 /* Also add this to ensure list items in instructions are visible */
@@ -57,7 +71,13 @@
 
 .instructions ul li {
   margin-bottom: 0.5rem;
+<<<<<<< HEAD
   color: #374151;
+=======
+  color: #ffe082;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(10,37,64,0.12);
+>>>>>>> 0a18d0e (Update README and fix instructions visibility for GitHub Pages)
 }
 
 
