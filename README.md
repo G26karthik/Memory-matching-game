@@ -79,6 +79,7 @@ This project was designed to meet the CodeCircuit Hackathon judging criteria:
    # or
    pnpm install
    ```
+````
 
 3. Start the development server:
 
@@ -87,8 +88,11 @@ This project was designed to meet the CodeCircuit Hackathon judging criteria:
    # or
    pnpm run dev
    ```
+   ````
 
 4. Open your browser and navigate to `http://localhost:5173`
+
+   ````
 
 ### Building for Production
 
